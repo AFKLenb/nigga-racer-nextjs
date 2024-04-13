@@ -1,4 +1,6 @@
+import useHero from "@/hooks/useHero";
 import type { Config } from "tailwindcss";
+
 
 const config: Config = {
   content: [
@@ -22,7 +24,8 @@ const config: Config = {
       roboto: 'var(--font-roboto)',
     },
     backgroundImage: {
-      hero: 'url(/assets/image/hero/CHEL.jpg)',
+      hero: 'url(/assets/image/bg.jpg)',
+      footer: 'url(/assets/image/bgFoter.jpg)',
     },
     extend: {
       backgroundImage: {

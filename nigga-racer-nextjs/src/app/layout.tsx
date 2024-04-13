@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${roboto.variable} ${oswald.variable} text-black w-full bg-gray-100`}>
+    <html className=" scroll-smooth" lang="en">
+      <body className={`${roboto.variable} ${oswald.variable} text-black w-full bg-blue-50/50`}>
         <div className="__next">
           <Header />
           <main className="main w-full" id="main">

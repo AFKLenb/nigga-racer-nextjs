@@ -20,4 +20,4 @@ const useContacts = () => {
 
 }
 
-export default useContacts;
+export default useContacts; 
